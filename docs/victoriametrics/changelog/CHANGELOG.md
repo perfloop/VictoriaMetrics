@@ -44,6 +44,7 @@ See also [LTS releases](https://docs.victoriametrics.com/victoriametrics/lts-rel
 * BUGFIX: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): preserve newline formatting in alert and rule annotations on the Alerting page. See [#11171](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11171).
 * BUGFIX: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): hide `Total metric names` stats on [Cardinality Explorer](https://docs.victoriametrics.com/victoriametrics/#cardinality-explorer) page when user selects a specific metric or label to focus. See [#11154](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11154) for details. Thanks to @lghuy05 for the contribution.
 * BUGFIX: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): keep only one header navigation dropdown (`Explore`, `Tools`) open at a time. Previously, hovering across two dropdowns could briefly leave both open due to the close delay. See [#11224](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11224). Thanks to @antedotee for contribution.
+* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): fix rule state display on the `Groups` page in the web UI. See [#11160](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11160).
 
 ## [v1.147.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.147.0)
 
